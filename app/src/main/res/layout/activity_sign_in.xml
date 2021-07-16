@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".sign_in">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-smallcaps">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textSize="18dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="textMultiLine|textPostalAddress"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="Contact number"
+            android:inputType="phone"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/a_number"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:hint="Adhaar number"
+            android:inputType="number"
+            android:maxLength="12"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp">
+
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="10dp">
+
+            <Button
+                android:id="@+id/button_validate"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="check"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="14dp"
+                android:enabled="false"
+                android:background="@color/waterblue">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sign_in"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="Sign in"
+            android:textSize="17dp"
+            android:enabled="false"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@color/waterblue"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="50dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

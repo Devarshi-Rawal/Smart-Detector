@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".home_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Screen"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="120dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- Notifications and pipe map -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/button_n"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/notification_button">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_pm"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="-80dp"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/pipe_map_button">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pipe Map"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="95dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- Feedback and leakage location -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/button_f"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/feedback_button">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_ll"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="-80dp"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/leakage_location_button">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="65dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leakage Location"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="75dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <!-- Labourer's details and help RMC -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/button_ld"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/labourer_details_button">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_h"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="-80dp"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/help_rmc_button">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Labourer's Details"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help RMC"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/button_rate_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate us"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:background="@color/waterblue"
+            android:layout_marginLeft="145dp">
+
+        </Button>
+
+        <!--Button
+            android:id="@+id/button_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="17dp"
+            android:background="@color/waterblue"
+            android:layout_marginLeft="50dp">
+
+        </Button-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

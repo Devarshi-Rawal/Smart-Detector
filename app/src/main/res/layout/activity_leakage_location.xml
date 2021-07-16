@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".leakage_location">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present Leakage Locations"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="60dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_ic"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="Indira Circle"
+            android:background="@color/waterblue"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="40dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_mc"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="Madhapar Chowk"
+            android:background="@color/waterblue"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_nmc"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="Nana Mauva Chowk"
+            android:background="@color/waterblue"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_rc"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:text="Ramdevpir Chowk"
+            android:background="@color/waterblue"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

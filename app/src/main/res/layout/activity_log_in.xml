@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".log_in">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="90dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:textSize="30dp"
+            android:inputType="text"
+            android:fontFamily="sans-serif-smallcaps">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp">
+
+        <EditText
+            android:id="@+id/regnumber"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Registered mobile number"
+            android:textSize="18dp"
+            android:inputType="number">
+
+        </EditText>
+
+        <!--Button
+            android:id="@+id/button_otp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@color/waterblue"
+            android:text="OTP"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif-smallcaps">
+
+        </Button-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="18dp"
+            android:inputType="number"
+            android:maxLength="6">
+
+        </EditText>
+
+        <!--Button
+            android:id="@+id/button_verotp"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@color/waterblue"
+            android:text="Verify"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif-smallcaps">
+
+        </Button-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="Log In"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/waterblue"
+            android:enabled="false">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take a step to become responsible!"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-smallcaps">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

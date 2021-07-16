@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#080909</color>
+    <color name="colorAccent">#B132CF</color>
+
+    <color name="blue">#3536B1</color>
+    <color name="byellow">#797E0D</color>
+    <color name="lyellow">#E3FF9E</color>
+    <color name="waterblue">#2196F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple">#C316EC</color>
+    <color name="green">#2CFF00</color>
+    <color name="colortextfirst">#000000</color>
+
+
+</resources>

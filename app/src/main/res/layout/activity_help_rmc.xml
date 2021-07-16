@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".help_rmc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pipeline Damage Rate"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="70dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="270dp"
+            android:layout_height="55dp"
+            android:hint="Location of damage"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/doo"
+            android:layout_width="270dp"
+            android:layout_height="55dp"
+            android:hint="Date of Observation"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="60dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_rc"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:text="Register Your Complain"
+            android:textSize="17dp"
+            android:enabled="false"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="70dp"
+            android:background="@color/waterblue">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

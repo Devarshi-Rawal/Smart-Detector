@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589327628173",
+    "firebase_url": "https://smart-detector-b7f14.firebaseio.com",
+    "project_id": "smart-detector-b7f14",
+    "storage_bucket": "smart-detector-b7f14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589327628173:android:856250bcbca27411396fc4",
+        "android_client_info": {
+          "package_name": "com.example.smartdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589327628173-je8pnof1qkl0v3d9502j167i0millniv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartdetector",
+            "certificate_hash": "c61fdebb5fd8aace41ecac0453fe7f157a6facef"
+          }
+        },
+        {
+          "client_id": "589327628173-3dl6581jnamcf66f1v9t8c3ben51mtc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLKd4w3i3b8vShsUuwv4psuMpmQ8QxQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589327628173-3dl6581jnamcf66f1v9t8c3ben51mtc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
